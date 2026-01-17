@@ -1,0 +1,25 @@
+# Node
+node_modules/
+
+# Build outputs
+dist/
+frontend/dist/
+
+# Local env files
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Misc
+coverage/

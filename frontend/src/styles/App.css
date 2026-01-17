@@ -1,0 +1,37 @@
+.app {
+  font-family: system-ui, Arial;
+  padding: 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.pagerRow {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.button {
+  padding: 8px 12px;
+}
+
+.pageInfo {
+  margin-left: 8px;
+}
+
+.tip {
+  margin-top: 16px;
+  color: #666;
+}
+
+.sortingNote {
+  margin-top: 4px;
+  font-size: 0.9em;
+  color: #daff07;
+}
+
+.error {
+  margin-top: 8px;
+  color: crimson;
+}

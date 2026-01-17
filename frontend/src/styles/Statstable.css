@@ -1,0 +1,33 @@
+.tableWrapper {
+  margin-top: 12px;
+  overflow-x: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: right;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #2a2a2a;
+  color: #f0f0f0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.table th.sorted {
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
+
+.loadingRow {
+  text-align: center;
+  color: #666;
+}

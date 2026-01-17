@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  line-height: 1.5;
+
+  background: #242424;
+  color: #f2f2f2;
+}
+
+a {
+  color: #646cff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 0 0 16px 0;
+  font-size: 40px;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 8px;
+
+  border: 1px solid #333;
+  background: #1a1a1a;
+  color: white;
+
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
