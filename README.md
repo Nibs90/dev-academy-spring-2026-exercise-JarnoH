@@ -88,3 +88,7 @@ For the example with the backend code:
 - The longest negative price streak is calculated in the backend from hourly data.
 - Sorting by the negative price streak is applied per page, since the value is computed after aggregation.
 - When date filtering using, pagination defaults to returning all matching days (with a safe upper limit).
+
+## Screenshot
+
+![Electricity daily stats UI](./frontend/src/assets/screenshotOfProject.png)
